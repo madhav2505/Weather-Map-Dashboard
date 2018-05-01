@@ -1,0 +1,89 @@
+﻿<!-- HUMIDITY PAGE -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Latitude</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+                        
+<body>
+    <header class="headerbar">
+                        
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Left side of navigation bar -->
+            <div class="navbar-header">
+                <a class="navbar-brand page-scroll" href="index.html">Latitude</a>
+            </div>
+                            
+            <!-- Right side of navigation bar -->
+            <div class="rightnavbar" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" type="button" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="page4.html">Max temperature</a></li>
+                                <li><a href="page5.html">Humidity</a></li>
+                                <li><a href="page6.html">Cloudiness</a></li>
+                                <li><a href="page7.html">Wind speed</a></li>
+                            </ul>
+                    </li>
+                    <li><a class="page-scroll" href="page2.html">Comparison</a></li>
+                    <li><a class="page-scroll" href="page3.html">Data</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <!-- Page content -->
+    <div class="pagecontent">
+        <div class="mainrow">
+            <div class="col-md-8">
+                <h3>Humidity</h3>
+                <hr>
+                
+                <div class="tempinfo">
+                    <img src="Resources/LatVsHumidity.png" alt="Plot illustration of humidity at varying latitudes">
+                    
+                    <p>This graph depicts no relationship between latitude and humidity. At any latitude, humidity varies. We 
+                       can see majority of the percentage of humidity ranges from 60 and above.
+                    </p>
+                </div>    
+            </div>
+    
+            <div class="col-md-4">
+                <h3>Visualizations</h3>
+                <hr>
+    
+                <div class="lpimages">
+                    <a href="page4.html"><img src="Resources/LatVsTemp.png" height=120px width=175px alt="Plot illustration of temperatures at varying latitudes"></a>
+                    <a href="page5.html"><img src="Resources/LatVsHumidity.png" height=120px width=175px alt="Plot illustration of humidity at varying latitudes"></a>
+                    <a href="page6.html"><img src="Resources/LatVsCloudiness.png" height=120px width=175px alt="Plot illustration of cloudiness at varying latitudes"></a>
+                    <a href="page7.html"><img src="Resources/LatVsWind.png" height=120px width=175px alt="Plot illustration of wind speed at varying latitudes"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="bottomrow">
+            <div class="col-md-12">
+                <footer>
+                    <p>© Copyright <a href = "https://github.com/madhav2505/Weather-Map-Dashboard">
+GitHub/madhav2505</a></p>
+                </footer>
+            </div>
+        </div>
+
+</body>
+</html>
+
