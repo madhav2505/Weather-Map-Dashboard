@@ -27,4 +27,4 @@ The website contains 7 pages total, including:
   * Displays a responsive table containing the data used in the visualizations.
 
 
-
+  Github Page - https://madhav2505.github.io/Weather-Map-Dashboard/
